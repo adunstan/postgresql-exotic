@@ -1,0 +1,174 @@
+english	esperanto	klingon	note
+table	tabelo	ghItlh mI'	tlh coinage: "writing of numbers"
+column	kolumno	tut	tlh canon: pillar
+row	vico	tlhegh	tlh canon: line
+tuple	opo	tlhegh	same as row
+relation	rilato	Dol	tlh canon: entity
+index	indekso	Sam tetlh	tlh: "locate list"
+view	vido	leghmeH ghItlh	tlh: "writing for seeing"
+materialized view	realigita vido	leghmeH ghItlh ngaSlu'bogh	tlh: "stored writing for seeing"
+sequence	sekvenco	mI' mIr	tlh: "number chain"
+database	datumbazo	De' pa'	tlh: "data room"
+schema	skemo	nab	tlh canon: plan
+tablespace	tabelspaco	ghItlh mI' logh	tlh: "table space"
+partition	sekcio	'ay'	tlh canon: section
+function	funkcio	mIw	tlh canon: procedure
+procedure	proceduro	mIw'a'	tlh: augmentative of mIw
+aggregate	agregaĵo	boSghach	tlh: "collecting"
+operator	operatoro	ruchwI'	tlh: "proceeder"
+trigger	ellasilo	chu'wI'	tlh: "engager"
+type	tipo	Segh	tlh canon: kind
+value	valoro	lo'laH	tlh canon: value
+key	ŝlosilo	ngaQHa'moHwI'	tlh canon: key
+primary key	ĉefa ŝlosilo	wa'DIch ngaQHa'moHwI'
+foreign key	fremda ŝlosilo	nov ngaQHa'moHwI'	tlh canon nov: alien
+constraint	limigo	veH	tlh canon: boundary
+unique	unika	wa' neH	tlh: "only one"
+lock	ŝloso	ngaQ	tlh canon: be locked
+transaction	transakcio	ta' mIr	tlh: "deed chain"
+commit	konfirmi	rInmoH	tlh: cause to be finished
+rollback	malfari	ta' mIr cheghmoH	tlh: "return the deed chain"
+role	rolo	patlh	tlh canon: rank
+user	uzanto	lo'wI'	tlh: "user"
+superuser	superuzanto	lo'wI' HoD	tlh: "captain user"
+owner	posedanto	ghajwI'	tlh: "haver"
+privilege	privilegio	DIb	tlh canon: privilege
+permission	permeso	chaw'	tlh canon: permit
+permission denied	permeso rifuzita	chaw' Qo'lu'pu'	tlh: "permit was refused"
+password	pasvorto	pegh mu'	tlh: "secret word"
+authentication	aŭtentigo	teHmoHghach	tlh: "making-true"
+certificate	atestilo	DIl ghItlh
+connection	konekto	rarghach	tlh: "connecting"
+server	servilo	toy'wI'	tlh canon: servant
+client	kliento	tlhobwI'	tlh: "asker"
+host	gastiganto	De'wI' Daq	tlh: "computer location"
+port	pordo	lojmIt	tlh canon: gate
+socket	soketo	rarwI'	tlh: "connector"
+session	seanco	ghom	tlh canon: meeting
+query	demando	yu'	tlh canon: interrogate
+statement	ordono	ra'	tlh canon: command
+command	komando	ra'	same as statement
+syntax error	sintaksa eraro	pab Qagh	tlh canon pab: grammar
+error	eraro	Qagh	tlh canon: mistake
+warning	averto	ghuH	tlh canon: alert
+notice	avizo	QIn	tlh canon: message
+detail	detalo	ngoD	tlh canon: fact
+hint	sugesto	qeS	tlh canon: advice
+context	kunteksto	ghu'	tlh canon: situation
+message	mesaĝo	QIn	tlh canon
+file	dosiero	ta	tlh canon: record
+directory	dosierujo	ta pa'	tlh: "record room"
+path	vojo	He	tlh canon: course
+page	paĝo	nav	tlh canon: paper
+log	protokolo	qonta	tlh: "recorded"
+memory	memoro	qawHaq	tlh canon: memory bank
+out of memory	memoro elĉerpiĝis	qawHaq natlhlu'pu'	tlh: "memory was consumed"
+disk	disko	jengva'	tlh canon: plate
+buffer	bufro	ngaSwI'	tlh: "container"
+read	legi	laD
+write	skribi	ghItlh
+open	malfermi	poSmoH
+close	fermi	SoQmoH
+create	krei	chenmoH
+drop	forigi	Qaw'	tlh canon: destroy
+alter	ŝanĝi	choH
+delete	forigi	teq	tlh canon: remove
+insert	enmeti	chel	tlh canon: add
+update	ĝisdatigi	chu'moH	tlh: renew
+select	elekti	wIv	tlh canon: choose
+exist / there is	ekzisti	tu'lu'	tlh: "is found"; "does not exist" = tu'lu'be'
+already exists	jam ekzistas	tu'lu'pu'
+could not ...	ne povis ...	-laHbe'pu'	tlh: verb suffixes, e.g. poSmoHlaHbe'pu'
+cannot ...	ne povas ...	-laHbe'	tlh: verb suffix
+must ...	devas ...	-nIS	tlh: verb suffix (need)
+invalid	nevalida	lughbe'	tlh canon lugh: be correct
+unrecognized	nerekonita	Sovlu'be'	tlh: "not known"
+not supported	ne subtenata	QaHlu'be'	tlh: "not helped"
+argument	argumento	Doch	tlh canon: thing
+parameter	parametro	mI'Doch	tlh: "number thing"
+option	opcio	wIvmeH	tlh: "for choosing"
+configuration parameter / setting	agordo	SeHlaw	tlh canon: control panel
+timeout	tempolimo	poH veH	tlh: "time boundary"
+cancel	nuligi	qIl	tlh canon
+start	starti	chu'	tlh canon: engage
+shut down	malŝalti	chu'Ha'	tlh canon: disengage
+restart	restarti	chu'qa'
+checkpoint	kontrolpunkto	qon Daq	tlh: "record place"
+replication	replikado	velqa' chenmoH	tlh canon velqa': artificial
+slot	ingo	Qorwagh	tlh canon: window
+publication	publikigo	maqghach	tlh canon maq: announce
+subscription	abono	Hevghach	tlh: "receiving"
+extension	etendaĵo	chelwI'	tlh: "adder"
+array	aro	mI' tetlh	tlh: "number list"
+list	listo	tetlh	tlh canon
+character	signo	ngutlh	tlh canon: letter
+string	ĉeno	ngutlh tlhegh	tlh: "letter line"
+number	nombro	mI'
+integer	entjero	mI' naQ	tlh: "whole number"
+out of range	ekster intervalo	veH Hur	tlh: "outside the boundary"
+overflow	superfluo	tlhoy tIn	tlh: "too big"
+division by zero	divido per nulo	pagh mI' wavlu'	tlh canon wav: divide
+null	nula	pagh	tlh canon: nothing; NULL itself stays NULL
+encoding	kodigo	ngoq Segh	tlh canon ngoq: code
+locale	lokaĵaro	Sep	tlh canon: region
+time zone	horzono	poH Sep
+date	dato	jaj	tlh canon: day
+time	tempo	poH
+interval	intervalo	poH 'ay'
+cursor	kursoro	ghoSwI'	tlh: "goer"
+snapshot	momentkopio	mIllogh	tlh canon: picture
+backup	sekurkopio	velqa' ta	tlh: "replica record"
+restore	restaŭri	cheghmoH	tlh: cause to return
+worker	laboristo	vumwI'	tlh canon
+background worker	fona laboristo	So' vumwI'	tlh: "hidden worker"
+process	procezo	Qu'	tlh canon: mission/task
+signal	signalo	rIt	tlh canon: call/summon
+success	sukceso	Qapla'	tlh canon
+fail	malsukcesi	luj	tlh canon
+yes	jes	HIja'
+no	ne	ghobe'
+help	helpo	QaH
+usage	uzado	lo'ghach
+version	versio	mI' chu'	tlh: "new number"
+program	programo	mIw ngoq
+input	enigo	'elghach
+output	eligo	mejghach
+line	linio	tlhegh
+word	vorto	mu'
+name	nomo	pong
+identifier	identigilo	ngu'wI'	tlh canon ngu': identify
+expression	esprimo	mu'tlhegh	tlh canon: sentence
+status / state	stato	Dotlh	tlh canon
+too many	tro da	tlhoy law'
+access method	atingmetodo	naw' mIw	added after eo wave 1
+backend (process)	servila procezo	toy'wI' Qu'	added after eo wave 1
+hash	haketaĵo	ghIchwIj	added after eo wave 1; tlh: "hashed"
+compression	kunpremo	Qaw'Ha'moH	added after eo wave 1
+collation	kolacio	nab ngutlh	added after eo wave 1
+storage	stokado	ngaSghach	added after eo wave 1
+handler	pritraktilo	ghunwI'	added after eo wave 1
+parser	analizilo	pab yajwI'	added after eo wave 1; tlh: "grammar understander"
+pointer	montrilo	SamwI'	added after eo wave 1
+variable	variablo	choHlaHbogh	added after eo wave 1
+cache	kaŝmemoro	So' qawHaq	added after eo wave 1
+token	ĵetono	ngoH	added after eo wave 1
+field	kampo	yotlh	added after eo wave 1; tlh canon: field
+pipeline mode	dukta reĝimo	mIr Dotlh	added after eo wave 1
+timestamp	tempomarko	poH ta	added after eo wave 1
+event	evento	wanI'	added after eo wave 1; tlh canon
+default	defaŭlto	motlh	added after eo wave 1; tlh canon: usual
+vacuum (the operation; VACUUM keyword stays)	vakuumado	Say'moH	added after eo wave 1; tlh: "make clean"
+offset	deŝovo	Do'	added after eo wave 1
+truncate	stuci	poD	added after eo wave 1; tlh canon: clip
+cluster (database cluster)	areto	ghom'a'	added after eo wave 1
+wraparound	ĉirkaŭiro	jIrchu'	added after eo wave 1
+savepoint	konservpunkto	ngaSmeH Daq	added after eo wave 1
+recovery	retrovo	chegh Qu'	added during eo wave 2
+foreign-data wrapper	fremddatuma envolvilo	nov De' tlhopwI'	added during eo wave 2
+policy	politiko	chut	added during eo wave 2; tlh canon: law
+domain	domajno	yoS	added during eo wave 2; tlh canon: district
+cast (type conversion)	konverto	Segh choHghach	added during eo wave 2
+scan	skano	nej	added during eo wave 2; tlh canon: search
+sort	ordigo	Qorgh	added during eo wave 2
+temporary	provizora	ru'	added during eo wave 2; tlh canon
+detach	malkroĉi	chevmoH	added during eo wave 2

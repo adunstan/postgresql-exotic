@@ -1,0 +1,2296 @@
+# Pig Latin message translation file for libpq (local demo)
+msgid ""
+msgstr ""
+"Project-Id-Version: PostgreSQL 20\n"
+"Report-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\n"
+"POT-Creation-Date: 2026-10-04 08:22-0400\n"
+"PO-Revision-Date: 2026-10-04 08:32-0400\n"
+"Last-Translator: Andrew Dunstan <andrew@dunslane.net>\n"
+"Language-Team: Pig Latin (demo)\n"
+"Language: en@piglatin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libpq-oauth/oauth-curl.c:309
+#, c-format
+msgid "WARNING: libcurl easy handle removal failed: %s\n"
+msgstr "WARNING: ibcurllay easyway andlehay emovalray ailedfay: %s\n"
+
+#: ../libpq-oauth/oauth-curl.c:329
+#, c-format
+msgid "WARNING: libcurl multi handle cleanup failed: %s\n"
+msgstr "WARNING: ibcurllay ultimay andlehay eanupclay ailedfay: %s\n"
+
+#: ../libpq-oauth/oauth-curl.c:394 ../libpq-oauth/oauth-curl.c:1858
+#: ../libpq-oauth/oauth-curl.c:1899 ../libpq-oauth/oauth-curl.c:2217
+#: ../libpq-oauth/oauth-curl.c:2378 ../libpq-oauth/oauth-curl.c:2438
+#: ../libpq-oauth/oauth-curl.c:2526 ../libpq-oauth/oauth-curl.c:3193
+#: fe-auth-oauth.c:153 fe-auth-oauth.c:496 fe-auth-oauth.c:568
+#: fe-auth-oauth.c:776 fe-auth-oauth.c:1065 fe-auth-oauth.c:1077
+#: fe-auth-oauth.c:1163 fe-auth-oauth.c:1176 fe-auth-oauth.c:1312
+#: fe-auth-scram.c:374 fe-auth-scram.c:447 fe-auth-scram.c:599
+#: fe-auth-scram.c:619 fe-auth-scram.c:643 fe-auth-scram.c:657
+#: fe-auth-scram.c:703 fe-auth-scram.c:739 fe-auth-scram.c:931 fe-auth.c:308
+#: fe-auth.c:382 fe-auth.c:416 fe-auth.c:694 fe-auth.c:827 fe-auth.c:1330
+#: fe-auth.c:1493 fe-cancel.c:178 fe-connect.c:1021 fe-connect.c:1061
+#: fe-connect.c:2193 fe-connect.c:2355 fe-connect.c:3747 fe-connect.c:5216
+#: fe-connect.c:5530 fe-connect.c:5808 fe-connect.c:5926 fe-connect.c:6199
+#: fe-connect.c:6242 fe-connect.c:6306 fe-connect.c:6404 fe-connect.c:6655
+#: fe-connect.c:6682 fe-connect.c:6758 fe-connect.c:6781 fe-connect.c:6805
+#: fe-connect.c:6840 fe-connect.c:6926 fe-connect.c:6934 fe-connect.c:7291
+#: fe-connect.c:7473 fe-connect.c:8086 fe-connect.c:8127 fe-exec.c:531
+#: fe-exec.c:1332 fe-exec.c:3322 fe-exec.c:4377 fe-exec.c:4570
+#: fe-gssapi-common.c:109 fe-lobj.c:869 fe-protocol3.c:214 fe-protocol3.c:237
+#: fe-protocol3.c:260 fe-protocol3.c:277 fe-protocol3.c:298 fe-protocol3.c:372
+#: fe-protocol3.c:753 fe-protocol3.c:993 fe-protocol3.c:1571
+#: fe-protocol3.c:1625 fe-protocol3.c:1671 fe-protocol3.c:1692
+#: fe-protocol3.c:1956 fe-protocol3.c:2368 fe-secure-common.c:110
+#: fe-secure-gssapi.c:515 fe-secure-gssapi.c:706 fe-secure-openssl.c:474
+#: fe-secure-openssl.c:1205
+#, c-format
+msgid "out of memory"
+msgstr "outway of emorymay"
+
+#: ../libpq-oauth/oauth-curl.c:439 ../libpq-oauth/oauth-curl.c:450
+#, c-format
+msgid "could not set libcurl option \"%s\" on OAuth connection: %s"
+msgstr "ouldcay not etsay ibcurllay optionway \"%s\" on OAuth onnectioncay: %s"
+
+#: ../libpq-oauth/oauth-curl.c:461
+#, c-format
+msgid "could not get libcurl info \"%s\" from OAuth response: %s"
+msgstr "ouldcay not etgay ibcurllay infoway \"%s\" omfray OAuth esponseray: %s"
+
+#: ../libpq-oauth/oauth-curl.c:530 fe-auth-oauth.c:216 fe-auth-oauth.c:278
+#: fe-auth-oauth.c:340
+#, c-format
+msgid "field \"%s\" must be a string"
+msgstr "ieldfay \"%s\" ustmay be a ingstray"
+
+#: ../libpq-oauth/oauth-curl.c:534
+#, c-format
+msgid "field \"%s\" must be a number"
+msgstr "ieldfay \"%s\" ustmay be a umbernay"
+
+#: ../libpq-oauth/oauth-curl.c:538
+#, c-format
+msgid "field \"%s\" must be an array of strings"
+msgstr "ieldfay \"%s\" ustmay be an arrayway of ingsstray"
+
+#: ../libpq-oauth/oauth-curl.c:543
+#, c-format
+msgid "field \"%s\" has unexpected type"
+msgstr "ieldfay \"%s\" ashay unexpectedway ypetay"
+
+#: ../libpq-oauth/oauth-curl.c:567 ../libpq-oauth/oauth-curl.c:677
+#: fe-auth-oauth.c:222 fe-auth-oauth.c:284
+#, c-format
+msgid "JSON is too deeply nested"
+msgstr "JSON is ootay eeplyday estednay"
+
+#: ../libpq-oauth/oauth-curl.c:619 fe-auth-oauth.c:331
+#, c-format
+msgid "field \"%s\" is duplicated"
+msgstr "ieldfay \"%s\" is uplicatedday"
+
+#: ../libpq-oauth/oauth-curl.c:659 ../libpq-oauth/oauth-curl.c:719
+#: fe-auth-oauth.c:271 fe-auth-oauth.c:305
+#, c-format
+msgid "top-level element must be an object"
+msgstr "optay-evellay elementway ustmay be an objectway"
+
+#: ../libpq-oauth/oauth-curl.c:822
+#, c-format
+msgid "no content type was provided"
+msgstr "no ontentcay ypetay was ovidedpray"
+
+#: ../libpq-oauth/oauth-curl.c:861
+#, c-format
+msgid "unexpected content type: \"%s\""
+msgstr "unexpectedway ontentcay ypetay: \"%s\""
+
+#: ../libpq-oauth/oauth-curl.c:886
+#, c-format
+msgid "response contains embedded null"
+msgstr "esponseray ontainscay embeddedway ullnay"
+
+#: ../libpq-oauth/oauth-curl.c:896
+#, c-format
+msgid "response is not valid UTF-8"
+msgstr "esponseray is not alidvay UTF-8"
+
+#: ../libpq-oauth/oauth-curl.c:936
+#, c-format
+msgid "field \"%s\" is missing"
+msgstr "ieldfay \"%s\" is issingmay"
+
+#: ../libpq-oauth/oauth-curl.c:1142
+msgid "could not parse token error response"
+msgstr "ouldcay not arsepay okentay errorway esponseray"
+
+#: ../libpq-oauth/oauth-curl.c:1170
+#, c-format
+msgid "provider rejected the oauth_client_secret"
+msgstr "oviderpray ejectedray the oauth_client_secret"
+
+#: ../libpq-oauth/oauth-curl.c:1171
+#, c-format
+msgid ""
+"provider requires client authentication, and no oauth_client_secret is set"
+msgstr ""
+"oviderpray equiresray ientclay authenticationway, and no oauth_client_secret "
+"is etsay"
+
+#: ../libpq-oauth/oauth-curl.c:1604
+#, c-format
+msgid "could not check timer expiration: %m"
+msgstr "ouldcay not eckchay imertay expirationway: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1766
+#, c-format
+msgid "could not create libcurl multi handle"
+msgstr "ouldcay not eatecray ibcurllay ultimay andlehay"
+
+#: ../libpq-oauth/oauth-curl.c:1786
+#, c-format
+msgid "could not create libcurl handle"
+msgstr "ouldcay not eatecray ibcurllay andlehay"
+
+#: ../libpq-oauth/oauth-curl.c:1886
+#, c-format
+msgid "response is too large"
+msgstr "esponseray is ootay argelay"
+
+#: ../libpq-oauth/oauth-curl.c:1928
+#, c-format
+msgid "could not queue HTTP request: %s"
+msgstr "ouldcay not euequay HTTP equestray: %s"
+
+#: ../libpq-oauth/oauth-curl.c:1945 ../libpq-oauth/oauth-curl.c:2003
+#, c-format
+msgid "asynchronous HTTP request failed: %s"
+msgstr "asynchronousway HTTP equestray ailedfay: %s"
+
+#: ../libpq-oauth/oauth-curl.c:2044
+#, c-format
+msgid "libcurl easy handle removal failed: %s"
+msgstr "ibcurllay easyway andlehay emovalray ailedfay: %s"
+
+#: ../libpq-oauth/oauth-curl.c:2055
+#, c-format
+msgid "no result was retrieved for the finished handle"
+msgstr "no esultray was etrievedray for the inishedfay andlehay"
+
+#: ../libpq-oauth/oauth-curl.c:2188 ../libpq-oauth/oauth-curl.c:2493
+#: ../libpq-oauth/oauth-curl.c:2571
+#, c-format
+msgid "unexpected response code %ld"
+msgstr "unexpectedway esponseray odecay %ld"
+
+#: ../libpq-oauth/oauth-curl.c:2195
+msgid "could not parse OpenID discovery document"
+msgstr "ouldcay not arsepay OpenID iscoveryday ocumentday"
+
+#: ../libpq-oauth/oauth-curl.c:2260
+#, c-format
+msgid "issuer identifier (%s) does not match oauth_issuer (%s)"
+msgstr "issuerway identifierway (%s) oesday not atchmay oauth_issuer (%s)"
+
+#: ../libpq-oauth/oauth-curl.c:2287
+#, c-format
+msgid "issuer \"%s\" does not provide a device authorization endpoint"
+msgstr ""
+"issuerway \"%s\" oesday not ovidepray a eviceday authorizationway endpointway"
+
+#: ../libpq-oauth/oauth-curl.c:2313
+#, c-format
+msgid "device authorization endpoint \"%s\" must use HTTPS"
+msgstr "eviceday authorizationway endpointway \"%s\" ustmay useway HTTPS"
+
+#: ../libpq-oauth/oauth-curl.c:2322
+#, c-format
+msgid "token endpoint \"%s\" must use HTTPS"
+msgstr "okentay endpointway \"%s\" ustmay useway HTTPS"
+
+#: ../libpq-oauth/oauth-curl.c:2462
+msgid "could not parse device authorization"
+msgstr "ouldcay not arsepay eviceday authorizationway"
+
+#: ../libpq-oauth/oauth-curl.c:2549
+msgid "could not parse access token response"
+msgstr "ouldcay not arsepay accessway okentay esponseray"
+
+#: ../libpq-oauth/oauth-curl.c:2626
+#, c-format
+msgid "slow_down interval overflow"
+msgstr "slow_down intervalway overflowway"
+
+#. translator: The first %s is a URL for the user to visit in a
+#. browser, and the second %s is a code to be copy-pasted there.
+#: ../libpq-oauth/oauth-curl.c:2662
+#, c-format
+msgid "Visit %s and enter the code: %s\n"
+msgstr "Isitvay %s and enterway the odecay: %s\n"
+
+#: ../libpq-oauth/oauth-curl.c:2667
+#, c-format
+msgid "device prompt failed"
+msgstr "eviceday omptpray ailedfay"
+
+#: ../libpq-oauth/oauth-curl.c:2720
+msgid "curl_global_init previously failed during OAuth setup"
+msgstr "curl_global_init eviouslypray ailedfay uringday OAuth etupsay"
+
+#: ../libpq-oauth/oauth-curl.c:2738
+msgid "curl_global_init failed during OAuth setup"
+msgstr "curl_global_init ailedfay uringday OAuth etupsay"
+
+#: ../libpq-oauth/oauth-curl.c:2760
+msgid ""
+"libcurl is no longer thread-safe\n"
+"\tCurl initialization was reported thread-safe when libpq\n"
+"\twas compiled, but the currently installed version of\n"
+"\tlibcurl reports that it is not. Recompile libpq against\n"
+"\tthe installed version of libcurl."
+msgstr ""
+"ibcurllay is no ongerlay eadthray-afesay\n"
+"\tUrlcay initializationway was eportedray eadthray-afesay enwhay ibpqlay\n"
+"\twas ompiledcay, utbay the urrentlycay installedway ersionvay of\n"
+"\tibcurllay eportsray atthay it is not. Ecompileray ibpqlay againstway\n"
+"\tthe installedway ersionvay of ibcurllay."
+
+#: ../libpq-oauth/oauth-curl.c:2900
+msgid "could not fetch OpenID discovery document"
+msgstr "ouldcay not etchfay OpenID iscoveryday ocumentday"
+
+#: ../libpq-oauth/oauth-curl.c:2914
+msgid "cannot run OAuth device authorization"
+msgstr "annotcay unray OAuth eviceday authorizationway"
+
+#: ../libpq-oauth/oauth-curl.c:2918
+msgid "could not obtain device authorization"
+msgstr "ouldcay not obtainway eviceday authorizationway"
+
+#: ../libpq-oauth/oauth-curl.c:2929 ../libpq-oauth/oauth-curl.c:2997
+msgid "could not obtain access token"
+msgstr "ouldcay not obtainway accessway okentay"
+
+#: fe-auth-oauth.c:140
+#, c-format
+msgid "internal error: no OAuth token was set for the connection"
+msgstr "internalway errorway: no OAuth okentay was etsay for the onnectioncay"
+
+#: fe-auth-oauth.c:403
+#, c-format
+msgid "OAuth discovery URI \"%s\" must use HTTPS"
+msgstr "OAuth iscoveryday URI \"%s\" ustmay useway HTTPS"
+
+#: fe-auth-oauth.c:420
+#, c-format
+msgid "OAuth discovery URI \"%s\" must not contain query or fragment components"
+msgstr ""
+"OAuth iscoveryday URI \"%s\" ustmay not ontaincay eryquay or agmentfray "
+"omponentscay"
+
+#: fe-auth-oauth.c:435
+#, c-format
+msgid "OAuth discovery URI \"%s\" is not a .well-known URI"
+msgstr "OAuth iscoveryday URI \"%s\" is not a .ellway-ownknay URI"
+
+#: fe-auth-oauth.c:461
+#, c-format
+msgid "OAuth discovery URI \"%s\" uses an unsupported .well-known suffix"
+msgstr ""
+"OAuth iscoveryday URI \"%s\" usesway an unsupportedway .ellway-ownknay "
+"uffixsay"
+
+#: fe-auth-oauth.c:486
+#, c-format
+msgid "OAuth discovery URI \"%s\" uses an invalid format"
+msgstr "OAuth iscoveryday URI \"%s\" usesway an invalidway ormatfay"
+
+#: fe-auth-oauth.c:535
+#, c-format
+msgid "server's error message contained an embedded NULL, and was discarded"
+msgstr ""
+"erversay's errorway essagemay ontainedcay an embeddedway NULL, and was "
+"iscardedday"
+
+#: fe-auth-oauth.c:546
+#, c-format
+msgid "server's error response is not valid UTF-8"
+msgstr "erversay's errorway esponseray is not alidvay UTF-8"
+
+#: fe-auth-oauth.c:586
+#, c-format
+msgid "failed to parse server's error response: %s"
+msgstr "ailedfay to arsepay erversay's errorway esponseray: %s"
+
+#: fe-auth-oauth.c:617
+#, c-format
+msgid ""
+"server's discovery document at %s (issuer \"%s\") is incompatible with "
+"oauth_issuer (%s)"
+msgstr ""
+"erversay's iscoveryday ocumentday at %s (issuerway \"%s\") is incompatibleway"
+" ithway oauth_issuer (%s)"
+
+#: fe-auth-oauth.c:638
+#, c-format
+msgid "server's discovery document has moved to %s (previous location was %s)"
+msgstr ""
+"erversay's iscoveryday ocumentday ashay ovedmay to %s (eviouspray ocationlay "
+"was %s)"
+
+#: fe-auth-oauth.c:659
+#, c-format
+msgid "server sent error response without a status"
+msgstr "erversay entsay errorway esponseray ithoutway a atusstay"
+
+#: fe-auth-oauth.c:670
+#, c-format
+msgid "server rejected OAuth bearer token: %s"
+msgstr "erversay ejectedray OAuth earerbay okentay: %s"
+
+#: fe-auth-oauth.c:717
+msgid "user-defined OAuth flow failed"
+msgstr "userway-efinedday OAuth owflay ailedfay"
+
+#: fe-auth-oauth.c:747
+#, c-format
+msgid "user-defined OAuth flow provided neither a token nor an async callback"
+msgstr ""
+"userway-efinedday OAuth owflay ovidedpray eithernay a okentay ornay an "
+"asyncway allbackcay"
+
+#: fe-auth-oauth.c:769
+#, c-format
+msgid "user-defined OAuth flow did not provide a token"
+msgstr "userway-efinedday OAuth owflay idday not ovidepray a okentay"
+
+#: fe-auth-oauth.c:788
+#, c-format
+msgid "user-defined OAuth flow did not provide a socket for polling"
+msgstr ""
+"userway-efinedday OAuth owflay idday not ovidepray a ocketsay for ollingpay"
+
+#: fe-auth-oauth.c:932
+msgid "could not find entry point for libpq-oauth"
+msgstr "ouldcay not indfay entryway ointpay for ibpqlay-oauthway"
+
+#: fe-auth-oauth.c:1097
+#, c-format
+msgid "no OAuth flows are available (try installing the libpq-oauth package)"
+msgstr ""
+"no OAuth owsflay are availableway (ytray installingway the ibpqlay-oauthway "
+"ackagepay)"
+
+#: fe-auth-oauth.c:1141
+#, c-format
+msgid ""
+"server requires OAuth authentication, but oauth_issuer and oauth_client_id "
+"are not both set"
+msgstr ""
+"erversay equiresray OAuth authenticationway, utbay oauth_issuer and "
+"oauth_client_id are not othbay etsay"
+
+#: fe-auth-oauth.c:1301
+#, c-format
+msgid "server sent unexpected additional OAuth data"
+msgstr "erversay entsay unexpectedway additionalway OAuth ataday"
+
+#: fe-auth-oauth.c:1341
+#, c-format
+msgid ""
+"server requires OAuth authentication, but no discovery metadata was provided"
+msgstr ""
+"erversay equiresray OAuth authenticationway, utbay no iscoveryday etadatamay "
+"was ovidedpray"
+
+#: fe-auth-oauth.c:1379
+#, c-format
+msgid "internal error: OAuth flow did not set a token"
+msgstr "internalway errorway: OAuth owflay idday not etsay a okentay"
+
+#: fe-auth-oauth.c:1397
+#, c-format
+msgid "server sent additional OAuth data after error"
+msgstr "erversay entsay additionalway OAuth ataday afterway errorway"
+
+#: fe-auth-oauth.c:1401
+#, c-format
+msgid "invalid OAuth exchange state"
+msgstr "invalidway OAuth exchangeway atestay"
+
+#: fe-auth-oauth.c:1414
+#, c-format
+msgid "retrying connection with new bearer token"
+msgstr "etryingray onnectioncay ithway ewnay earerbay okentay"
+
+#: fe-auth-scram.c:228
+#, c-format
+msgid "malformed SCRAM message (empty message)"
+msgstr "alformedmay SCRAM essagemay (emptyway essagemay)"
+
+#: fe-auth-scram.c:233
+#, c-format
+msgid "malformed SCRAM message (length mismatch)"
+msgstr "alformedmay SCRAM essagemay (engthlay ismatchmay)"
+
+#: fe-auth-scram.c:277
+#, c-format
+msgid "could not verify server signature: %s"
+msgstr "ouldcay not erifyvay erversay ignaturesay: %s"
+
+#: fe-auth-scram.c:283
+#, c-format
+msgid "incorrect server signature"
+msgstr "incorrectway erversay ignaturesay"
+
+#: fe-auth-scram.c:292
+#, c-format
+msgid "invalid SCRAM exchange state"
+msgstr "invalidway SCRAM exchangeway atestay"
+
+#: fe-auth-scram.c:316
+#, c-format
+msgid "malformed SCRAM message (attribute \"%c\" expected)"
+msgstr "alformedmay SCRAM essagemay (attributeway \"%c\" expectedway)"
+
+#: fe-auth-scram.c:325
+#, c-format
+msgid "malformed SCRAM message (expected character \"=\" for attribute \"%c\")"
+msgstr ""
+"alformedmay SCRAM essagemay (expectedway aracterchay \"=\" for attributeway "
+"\"%c\")"
+
+#: fe-auth-scram.c:365
+#, c-format
+msgid "could not generate nonce"
+msgstr "ouldcay not enerategay oncenay"
+
+#: fe-auth-scram.c:381
+#, c-format
+msgid "could not encode nonce"
+msgstr "ouldcay not encodeway oncenay"
+
+#: fe-auth-scram.c:569
+#, c-format
+msgid "could not calculate client proof: %s"
+msgstr "ouldcay not alculatecay ientclay oofpray: %s"
+
+#: fe-auth-scram.c:584
+#, c-format
+msgid "could not encode client proof"
+msgstr "ouldcay not encodeway ientclay oofpray"
+
+#: fe-auth-scram.c:636
+#, c-format
+msgid "invalid SCRAM response (nonce mismatch)"
+msgstr "invalidway SCRAM esponseray (oncenay ismatchmay)"
+
+#: fe-auth-scram.c:666
+#, c-format
+msgid "malformed SCRAM message (invalid salt)"
+msgstr "alformedmay SCRAM essagemay (invalidway altsay)"
+
+#: fe-auth-scram.c:679
+#, c-format
+msgid "malformed SCRAM message (invalid iteration count)"
+msgstr "alformedmay SCRAM essagemay (invalidway iterationway ountcay)"
+
+#: fe-auth-scram.c:684
+#, c-format
+msgid "malformed SCRAM message (garbage at end of server-first-message)"
+msgstr ""
+"alformedmay SCRAM essagemay (arbagegay at endway of erversay-irstfay-"
+"essagemay)"
+
+#: fe-auth-scram.c:718
+#, c-format
+msgid "error received from server in SCRAM exchange: %s"
+msgstr "errorway eceivedray omfray erversay in SCRAM exchangeway: %s"
+
+#: fe-auth-scram.c:733
+#, c-format
+msgid "malformed SCRAM message (garbage at end of server-final-message)"
+msgstr ""
+"alformedmay SCRAM essagemay (arbagegay at endway of erversay-inalfay-"
+"essagemay)"
+
+#: fe-auth-scram.c:750
+#, c-format
+msgid "malformed SCRAM message (invalid server signature)"
+msgstr "alformedmay SCRAM essagemay (invalidway erversay ignaturesay)"
+
+#: fe-auth-scram.c:940
+msgid "could not generate random salt"
+msgstr "ouldcay not enerategay andomray altsay"
+
+#: fe-auth.c:80
+#, c-format
+msgid "out of memory allocating GSSAPI buffer (%d)"
+msgstr "outway of emorymay allocatingway GSSAPI ufferbay (%d)"
+
+#: fe-auth.c:146
+msgid "GSSAPI continuation error"
+msgstr "GSSAPI ontinuationcay errorway"
+
+#: fe-auth.c:176 fe-auth.c:410 fe-gssapi-common.c:97 fe-secure-common.c:99
+#: fe-secure-common.c:173
+#, c-format
+msgid "host name must be specified"
+msgstr "osthay amenay ustmay be ecifiedspay"
+
+#: fe-auth.c:182
+#, c-format
+msgid "duplicate GSS authentication request"
+msgstr "uplicateday GSS authenticationway equestray"
+
+#: fe-auth.c:246
+#, c-format
+msgid "out of memory allocating SSPI buffer (%d)"
+msgstr "outway of emorymay allocatingway SSPI ufferbay (%d)"
+
+#: fe-auth.c:297
+msgid "SSPI continuation error"
+msgstr "SSPI ontinuationcay errorway"
+
+#: fe-auth.c:372
+#, c-format
+msgid "duplicate SSPI authentication request"
+msgstr "uplicateday SSPI authenticationway equestray"
+
+#: fe-auth.c:397
+msgid "could not acquire SSPI credentials"
+msgstr "ouldcay not acquireway SSPI edentialscray"
+
+#: fe-auth.c:449
+#, c-format
+msgid "channel binding required, but SSL not in use"
+msgstr "annelchay indingbay equiredray, utbay SSL not in useway"
+
+#: fe-auth.c:455
+#, c-format
+msgid "duplicate SASL authentication request"
+msgstr "uplicateday SASL authenticationway equestray"
+
+#: fe-auth.c:513
+#, c-format
+msgid "channel binding is required, but client does not support it"
+msgstr ""
+"annelchay indingbay is equiredray, utbay ientclay oesday not upportsay it"
+
+#: fe-auth.c:529
+#, c-format
+msgid ""
+"server offered SCRAM-SHA-256-PLUS authentication over a non-SSL connection"
+msgstr ""
+"erversay offeredway SCRAM-SHA-256-PLUS authenticationway overway a onnay-SSL "
+"onnectioncay"
+
+#: fe-auth.c:551
+#, c-format
+msgid "none of the server's SASL authentication mechanisms are supported"
+msgstr ""
+"onenay of the erversay's SASL authenticationway echanismsmay are upportedsay"
+
+#: fe-auth.c:571
+#, c-format
+msgid ""
+"authentication method requirement \"%s\" failed: server requested %s "
+"authentication"
+msgstr ""
+"authenticationway ethodmay equirementray \"%s\" ailedfay: erversay "
+"equestedray %s authenticationway"
+
+#: fe-auth.c:580
+#, c-format
+msgid ""
+"channel binding is required, but server did not offer an authentication "
+"method that supports channel binding"
+msgstr ""
+"annelchay indingbay is equiredray, utbay erversay idday not offerway an "
+"authenticationway ethodmay atthay upportssay annelchay indingbay"
+
+#: fe-auth.c:716
+#, c-format
+msgid "out of memory allocating SASL buffer (%d)"
+msgstr "outway of emorymay allocatingway SASL ufferbay (%d)"
+
+#: fe-auth.c:758
+#, c-format
+msgid ""
+"AuthenticationSASLFinal received from server, but SASL authentication was not"
+" completed"
+msgstr ""
+"AuthenticationSASLFinal eceivedray omfray erversay, utbay SASL "
+"authenticationway was not ompletedcay"
+
+#: fe-auth.c:768
+#, c-format
+msgid "no client response found after SASL exchange success"
+msgstr "no ientclay esponseray oundfay afterway SASL exchangeway uccesssay"
+
+#: fe-auth.c:836 fe-auth.c:843 fe-auth.c:1476 fe-auth.c:1487
+#, c-format
+msgid "could not encrypt password: %s"
+msgstr "ouldcay not encryptway asswordpay: %s"
+
+#: fe-auth.c:873
+msgid "server requested a cleartext password"
+msgstr "erversay equestedray a eartextclay asswordpay"
+
+#: fe-auth.c:875
+msgid "server requested a hashed password"
+msgstr "erversay equestedray a ashedhay asswordpay"
+
+#: fe-auth.c:878
+msgid "server requested GSSAPI authentication"
+msgstr "erversay equestedray GSSAPI authenticationway"
+
+#: fe-auth.c:880
+msgid "server requested SSPI authentication"
+msgstr "erversay equestedray SSPI authenticationway"
+
+#: fe-auth.c:884
+msgid "server requested SASL authentication"
+msgstr "erversay equestedray SASL authenticationway"
+
+#: fe-auth.c:887
+msgid "server requested an unknown authentication type"
+msgstr "erversay equestedray an unknownway authenticationway ypetay"
+
+#: fe-auth.c:920
+#, c-format
+msgid "server did not request an SSL certificate"
+msgstr "erversay idday not equestray an SSL ertificatecay"
+
+#: fe-auth.c:925
+#, c-format
+msgid "server accepted connection without a valid SSL certificate"
+msgstr ""
+"erversay acceptedway onnectioncay ithoutway a alidvay SSL ertificatecay"
+
+#: fe-auth.c:979
+msgid "server did not complete authentication"
+msgstr "erversay idday not ompletecay authenticationway"
+
+#: fe-auth.c:1013
+#, c-format
+msgid "authentication method requirement \"%s\" failed: %s"
+msgstr "authenticationway ethodmay equirementray \"%s\" ailedfay: %s"
+
+#: fe-auth.c:1036
+#, c-format
+msgid ""
+"channel binding required, but server authenticated client without channel "
+"binding"
+msgstr ""
+"annelchay indingbay equiredray, utbay erversay authenticatedway ientclay "
+"ithoutway annelchay indingbay"
+
+#: fe-auth.c:1041
+#, c-format
+msgid ""
+"channel binding required but not supported by server's authentication request"
+msgstr ""
+"annelchay indingbay equiredray utbay not upportedsay by erversay's "
+"authenticationway equestray"
+
+#: fe-auth.c:1081
+#, c-format
+msgid "Kerberos 4 authentication not supported"
+msgstr "Erberoskay 4 authenticationway not upportedsay"
+
+#: fe-auth.c:1085
+#, c-format
+msgid "Kerberos 5 authentication not supported"
+msgstr "Erberoskay 5 authenticationway not upportedsay"
+
+#: fe-auth.c:1155
+#, c-format
+msgid "GSSAPI authentication not supported"
+msgstr "GSSAPI authenticationway not upportedsay"
+
+#: fe-auth.c:1186
+#, c-format
+msgid "SSPI authentication not supported"
+msgstr "SSPI authenticationway not upportedsay"
+
+#: fe-auth.c:1193
+#, c-format
+msgid "Crypt authentication not supported"
+msgstr "Yptcray authenticationway not upportedsay"
+
+#: fe-auth.c:1267
+#, c-format
+msgid "authentication method %u not supported"
+msgstr "authenticationway ethodmay %u not upportedsay"
+
+#: fe-auth.c:1307
+#, c-format
+msgid "user name lookup failure: error code %lu"
+msgstr "userway amenay ookuplay ailurefay: errorway odecay %lu"
+
+#: fe-auth.c:1315
+#, c-format
+msgid "could not look up local user ID %ld: %m"
+msgstr "ouldcay not ooklay upway ocallay userway ID %ld: %m"
+
+#: fe-auth.c:1320
+#, c-format
+msgid "local user with ID %ld does not exist"
+msgstr "ocallay userway ithway ID %ld oesday not existway"
+
+#: fe-auth.c:1439
+#, c-format
+msgid "unexpected shape of result set returned for SHOW"
+msgstr "unexpectedway apeshay of esultray etsay eturnedray for SHOW"
+
+#: fe-auth.c:1447
+#, c-format
+msgid "\"password_encryption\" value too long"
+msgstr "\"password_encryption\" aluevay ootay onglay"
+
+#: fe-auth.c:1497
+#, c-format
+msgid "unrecognized password encryption algorithm \"%s\""
+msgstr "unrecognizedway asswordpay encryptionway algorithmway \"%s\""
+
+#: fe-cancel.c:79
+#, c-format
+msgid "connection pointer is NULL"
+msgstr "onnectioncay ointerpay is NULL"
+
+#: fe-cancel.c:85 fe-misc.c:621
+#, c-format
+msgid "connection not open"
+msgstr "onnectioncay not openway"
+
+#: fe-cancel.c:92
+#, c-format
+msgid "no cancellation key received"
+msgstr "no ancellationcay eykay eceivedray"
+
+#: fe-cancel.c:212
+#, c-format
+msgid "cancel request is already being sent on this connection"
+msgstr "ancelcay equestray is alreadyway eingbay entsay on isthay onnectioncay"
+
+#: fe-cancel.c:282
+#, c-format
+msgid "unexpected response from server"
+msgstr "unexpectedway esponseray omfray erversay"
+
+#: fe-connect.c:1318
+#, c-format
+msgid "could not match %d host names to %d hostaddr values"
+msgstr "ouldcay not atchmay %d osthay amesnay to %d ostaddrhay aluesvay"
+
+#: fe-connect.c:1399
+#, c-format
+msgid "could not match %d port numbers to %d hosts"
+msgstr "ouldcay not atchmay %d ortpay umbersnay to %d ostshay"
+
+#: fe-connect.c:1480 fe-exec.c:532 fe-protocol3.c:2162
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: fe-connect.c:1536
+#, c-format
+msgid ""
+"negative require_auth method \"%s\" cannot be mixed with non-negative methods"
+msgstr ""
+"egativenay require_auth ethodmay \"%s\" annotcay be ixedmay ithway onnay-"
+"egativenay ethodsmay"
+
+#: fe-connect.c:1549
+#, c-format
+msgid "require_auth method \"%s\" cannot be mixed with negative methods"
+msgstr ""
+"require_auth ethodmay \"%s\" annotcay be ixedmay ithway egativenay ethodsmay"
+
+#: fe-connect.c:1625 fe-connect.c:1758 fe-connect.c:1800 fe-connect.c:1843
+#: fe-connect.c:1946 fe-connect.c:1992 fe-connect.c:2032 fe-connect.c:2097
+#: fe-connect.c:8370
+#, c-format
+msgid "invalid %s value: \"%s\""
+msgstr "invalidway %s aluevay: \"%s\""
+
+#: fe-connect.c:1671
+#, c-format
+msgid "internal error: no space in allowed_sasl_mechs"
+msgstr "internalway errorway: no acespay in allowed_sasl_mechs"
+
+#: fe-connect.c:1710
+#, c-format
+msgid "require_auth method \"%s\" is specified more than once"
+msgstr "require_auth ethodmay \"%s\" is ecifiedspay oremay anthay onceway"
+
+#: fe-connect.c:1781 fe-connect.c:1820 fe-connect.c:1852 fe-connect.c:1954
+#, c-format
+msgid "%s value \"%s\" invalid when SSL support is not compiled in"
+msgstr "%s aluevay \"%s\" invalidway enwhay SSL upportsay is not ompiledcay in"
+
+#: fe-connect.c:1872
+#, c-format
+msgid ""
+"weak sslmode \"%s\" may not be used with sslnegotiation=direct (use "
+"\"require\", \"verify-ca\", or \"verify-full\")"
+msgstr ""
+"eakway odesslmay \"%s\" aymay not be usedway ithway egotiationsslnay=irectday"
+" (useway \"require\", \"verify-ca\", or \"verify-full\")"
+
+#: fe-connect.c:1894
+#, c-format
+msgid ""
+"weak sslmode \"%s\" may not be used with sslrootcert=system (use \"verify-"
+"full\")"
+msgstr ""
+"eakway odesslmay \"%s\" aymay not be usedway ithway ootcertsslray=ystemsay "
+"(useway \"verify-full\")"
+
+#: fe-connect.c:1907 fe-connect.c:1915
+#, c-format
+msgid "invalid \"%s\" value: \"%s\""
+msgstr "invalidway \"%s\" aluevay: \"%s\""
+
+#: fe-connect.c:1932
+#, c-format
+msgid "invalid SSL protocol version range"
+msgstr "invalidway SSL otocolpray ersionvay angeray"
+
+#: fe-connect.c:1969
+#, c-format
+msgid "%s value \"%s\" is not supported (check OpenSSL version)"
+msgstr "%s aluevay \"%s\" is not upportedsay (eckchay OpenSSL ersionvay)"
+
+#: fe-connect.c:1999
+#, c-format
+msgid "gssencmode value \"%s\" invalid when GSSAPI support is not compiled in"
+msgstr ""
+"encmodegssay aluevay \"%s\" invalidway enwhay GSSAPI upportsay is not "
+"ompiledcay in"
+
+#: fe-connect.c:2053
+#, c-format
+msgid "invalid SCRAM client key"
+msgstr "invalidway SCRAM ientclay eykay"
+
+#: fe-connect.c:2058
+#, c-format
+msgid "invalid SCRAM client key length: %d"
+msgstr "invalidway SCRAM ientclay eykay engthlay: %d"
+
+#: fe-connect.c:2075
+#, c-format
+msgid "invalid SCRAM server key"
+msgstr "invalidway SCRAM erversay eykay"
+
+#: fe-connect.c:2080
+#, c-format
+msgid "invalid SCRAM server key length: %d"
+msgstr "invalidway SCRAM erversay eykay engthlay: %d"
+
+#: fe-connect.c:2166
+#, c-format
+msgid "\"%s\" is greater than \"%s\""
+msgstr "\"%s\" is eatergray anthay \"%s\""
+
+#: fe-connect.c:2378
+#, c-format
+msgid "could not set socket to TCP no delay mode: %s"
+msgstr "ouldcay not etsay ocketsay to TCP no elayday odemay: %s"
+
+#: fe-connect.c:2437
+#, c-format
+msgid "connection to server on socket \"%s\" failed: "
+msgstr "onnectioncay to erversay on ocketsay \"%s\" ailedfay: "
+
+#: fe-connect.c:2463
+#, c-format
+msgid "connection to server at \"%s\" (%s), port %s failed: "
+msgstr "onnectioncay to erversay at \"%s\" (%s), ortpay %s ailedfay: "
+
+#: fe-connect.c:2468
+#, c-format
+msgid "connection to server at \"%s\", port %s failed: "
+msgstr "onnectioncay to erversay at \"%s\", ortpay %s ailedfay: "
+
+#: fe-connect.c:2491
+#, c-format
+msgid "\tIs the server running locally and accepting connections on that socket?"
+msgstr ""
+"\tIs the erversay unningray ocallylay and acceptingway onnectionscay on "
+"atthay ocketsay?"
+
+#: fe-connect.c:2493
+#, c-format
+msgid "\tIs the server running on that host and accepting TCP/IP connections?"
+msgstr ""
+"\tIs the erversay unningray on atthay osthay and acceptingway TCP/IP "
+"onnectionscay?"
+
+#: fe-connect.c:2539 fe-connect.c:2573 fe-connect.c:2608 fe-connect.c:2706
+#: fe-connect.c:3431
+#, c-format
+msgid "%s(%s) failed: %s"
+msgstr "%s(%s) ailedfay: %s"
+
+#: fe-connect.c:2672
+#, c-format
+msgid "%s(%s) failed: error code %d"
+msgstr "%s(%s) ailedfay: errorway odecay %d"
+
+#: fe-connect.c:2983
+#, c-format
+msgid "invalid connection state, probably indicative of memory corruption"
+msgstr ""
+"invalidway onnectioncay atestay, obablypray indicativeway of emorymay "
+"orruptioncay"
+
+#: fe-connect.c:3066
+#, c-format
+msgid "invalid port number: \"%s\""
+msgstr "invalidway ortpay umbernay: \"%s\""
+
+#: fe-connect.c:3080
+#, c-format
+msgid "could not translate host name \"%s\" to address: %s"
+msgstr "ouldcay not anslatetray osthay amenay \"%s\" to addressway: %s"
+
+#: fe-connect.c:3092
+#, c-format
+msgid "could not parse network address \"%s\": %s"
+msgstr "ouldcay not arsepay etworknay addressway \"%s\": %s"
+
+#: fe-connect.c:3103
+#, c-format
+msgid "Unix-domain socket path \"%s\" is too long (maximum %zu bytes)"
+msgstr ""
+"Unixway-omainday ocketsay athpay \"%s\" is ootay onglay (aximummay %zu "
+"ytesbay)"
+
+#: fe-connect.c:3117
+#, c-format
+msgid "could not translate Unix-domain socket path \"%s\" to address: %s"
+msgstr ""
+"ouldcay not anslatetray Unixway-omainday ocketsay athpay \"%s\" to "
+"addressway: %s"
+
+#: fe-connect.c:3283 fe-connect.c:4741
+#, c-format
+msgid "GSSAPI encryption required but it is not supported over a local socket"
+msgstr ""
+"GSSAPI encryptionway equiredray utbay it is not upportedsay overway a ocallay"
+" ocketsay"
+
+#: fe-connect.c:3291 fe-connect.c:4870
+#, c-format
+msgid "GSSAPI encryption required but no credential cache"
+msgstr "GSSAPI encryptionway equiredray utbay no edentialcray achecay"
+
+#: fe-connect.c:3359
+#, c-format
+msgid "could not create socket: %s"
+msgstr "ouldcay not eatecray ocketsay: %s"
+
+#: fe-connect.c:3390
+#, c-format
+msgid "could not set socket to nonblocking mode: %s"
+msgstr "ouldcay not etsay ocketsay to onblockingnay odemay: %s"
+
+#: fe-connect.c:3401
+#, c-format
+msgid "could not set socket to close-on-exec mode: %s"
+msgstr "ouldcay not etsay ocketsay to oseclay-on-execway odemay: %s"
+
+#: fe-connect.c:3558
+#, c-format
+msgid "could not get socket error status: %s"
+msgstr "ouldcay not etgay ocketsay errorway atusstay: %s"
+
+#: fe-connect.c:3585
+#, c-format
+msgid "could not get client address from socket: %s"
+msgstr "ouldcay not etgay ientclay addressway omfray ocketsay: %s"
+
+#: fe-connect.c:3611
+#, c-format
+msgid "requirepeer parameter is not supported on this platform"
+msgstr "equirepeerray arameterpay is not upportedsay on isthay atformplay"
+
+#: fe-connect.c:3613
+#, c-format
+msgid "could not get peer credentials: %s"
+msgstr "ouldcay not etgay eerpay edentialscray: %s"
+
+#: fe-connect.c:3626
+#, c-format
+msgid "requirepeer specifies \"%s\", but actual peer user name is \"%s\""
+msgstr ""
+"equirepeerray ecifiesspay \"%s\", utbay actualway eerpay userway amenay is "
+"\"%s\""
+
+#: fe-connect.c:3664
+#, c-format
+msgid "could not send GSSAPI negotiation packet: %s"
+msgstr "ouldcay not endsay GSSAPI egotiationnay acketpay: %s"
+
+#: fe-connect.c:3703
+#, c-format
+msgid "could not send SSL negotiation packet: %s"
+msgstr "ouldcay not endsay SSL egotiationnay acketpay: %s"
+
+#: fe-connect.c:3729
+#, c-format
+msgid "could not send cancel packet: %s"
+msgstr "ouldcay not endsay ancelcay acketpay: %s"
+
+#: fe-connect.c:3759
+#, c-format
+msgid "could not send startup packet: %s"
+msgstr "ouldcay not endsay artupstay acketpay: %s"
+
+#: fe-connect.c:3832
+msgid "server does not support SSL, but SSL was required"
+msgstr "erversay oesday not upportsay SSL, utbay SSL was equiredray"
+
+#: fe-connect.c:3842
+#, c-format
+msgid "server sent an error response during SSL exchange"
+msgstr "erversay entsay an errorway esponseray uringday SSL exchangeway"
+
+#: fe-connect.c:3847
+#, c-format
+msgid "received invalid response to SSL negotiation: %c"
+msgstr "eceivedray invalidway esponseray to SSL egotiationnay: %c"
+
+#: fe-connect.c:3867
+#, c-format
+msgid "received unencrypted data after SSL response"
+msgstr "eceivedray unencryptedway ataday afterway SSL esponseray"
+
+#: fe-connect.c:3930
+#, c-format
+msgid "server sent an error response during GSS encryption exchange"
+msgstr ""
+"erversay entsay an errorway esponseray uringday GSS encryptionway exchangeway"
+
+#: fe-connect.c:3948
+msgid "server doesn't support GSSAPI encryption, but it was required"
+msgstr ""
+"erversay oesnday't upportsay GSSAPI encryptionway, utbay it was equiredray"
+
+#: fe-connect.c:3952
+#, c-format
+msgid "received invalid response to GSSAPI negotiation: %c"
+msgstr "eceivedray invalidway esponseray to GSSAPI egotiationnay: %c"
+
+#: fe-connect.c:3974
+#, c-format
+msgid "received unencrypted data after GSSAPI encryption response"
+msgstr ""
+"eceivedray unencryptedway ataday afterway GSSAPI encryptionway esponseray"
+
+#: fe-connect.c:4035
+#, c-format
+msgid "expected authentication request from server, but received %c"
+msgstr ""
+"expectedway authenticationway equestray omfray erversay, utbay eceivedray %c"
+
+#: fe-connect.c:4063 fe-connect.c:4195
+#, c-format
+msgid "received invalid authentication request"
+msgstr "eceivedray invalidway authenticationway equestray"
+
+#: fe-connect.c:4069
+#, c-format
+msgid "received invalid protocol negotiation message"
+msgstr "eceivedray invalidway otocolpray egotiationnay essagemay"
+
+#: fe-connect.c:4088 fe-connect.c:4142
+#, c-format
+msgid "received invalid error message"
+msgstr "eceivedray invalidway errorway essagemay"
+
+#: fe-connect.c:4172
+#, c-format
+msgid "received duplicate protocol negotiation message"
+msgstr "eceivedray uplicateday otocolpray egotiationnay essagemay"
+
+#: fe-connect.c:4274
+#, c-format
+msgid "internal error: async authentication has no handler"
+msgstr "internalway errorway: asyncway authenticationway ashay no andlerhay"
+
+#: fe-connect.c:4299
+#, c-format
+msgid "internal error: async cleanup did not release polling socket"
+msgstr ""
+"internalway errorway: asyncway eanupclay idday not eleaseray ollingpay "
+"ocketsay"
+
+#: fe-connect.c:4322
+#, c-format
+msgid "internal error: async authentication did not set a socket for polling"
+msgstr ""
+"internalway errorway: asyncway authenticationway idday not etsay a ocketsay "
+"for ollingpay"
+
+#: fe-connect.c:4357
+#, c-format
+msgid "unexpected message from server during startup"
+msgstr "unexpectedway essagemay omfray erversay uringday artupstay"
+
+#: fe-connect.c:4448
+#, c-format
+msgid "session is read-only"
+msgstr "essionsay is eadray-onlyway"
+
+#: fe-connect.c:4450
+#, c-format
+msgid "session is not read-only"
+msgstr "essionsay is not eadray-onlyway"
+
+#: fe-connect.c:4503
+#, c-format
+msgid "server is in hot standby mode"
+msgstr "erversay is in othay andbystay odemay"
+
+#: fe-connect.c:4505
+#, c-format
+msgid "server is not in hot standby mode"
+msgstr "erversay is not in othay andbystay odemay"
+
+#: fe-connect.c:4636 fe-connect.c:4689
+#, c-format
+msgid "\"%s\" failed"
+msgstr "\"%s\" ailedfay"
+
+#: fe-connect.c:4703
+#, c-format
+msgid "invalid connection state %d, probably indicative of memory corruption"
+msgstr ""
+"invalidway onnectioncay atestay %d, obablypray indicativeway of emorymay "
+"orruptioncay"
+
+#: fe-connect.c:5543
+#, c-format
+msgid "invalid LDAP URL \"%s\": scheme must be ldap://"
+msgstr "invalidway LDAP URL \"%s\": emeschay ustmay be ldap://"
+
+#: fe-connect.c:5558
+#, c-format
+msgid "invalid LDAP URL \"%s\": missing distinguished name"
+msgstr "invalidway LDAP URL \"%s\": issingmay istinguishedday amenay"
+
+#: fe-connect.c:5570 fe-connect.c:5628
+#, c-format
+msgid "invalid LDAP URL \"%s\": must have exactly one attribute"
+msgstr "invalidway LDAP URL \"%s\": ustmay avehay exactlyway oneway attributeway"
+
+#: fe-connect.c:5582 fe-connect.c:5644
+#, c-format
+msgid "invalid LDAP URL \"%s\": must have search scope (base/one/sub)"
+msgstr "invalidway LDAP URL \"%s\": ustmay avehay earchsay opescay (base/one/sub)"
+
+#: fe-connect.c:5594
+#, c-format
+msgid "invalid LDAP URL \"%s\": no filter"
+msgstr "invalidway LDAP URL \"%s\": no ilterfay"
+
+#: fe-connect.c:5616
+#, c-format
+msgid "invalid LDAP URL \"%s\": invalid port number"
+msgstr "invalidway LDAP URL \"%s\": invalidway ortpay umbernay"
+
+#: fe-connect.c:5653
+#, c-format
+msgid "could not create LDAP structure"
+msgstr "ouldcay not eatecray LDAP ucturestray"
+
+#: fe-connect.c:5660
+#, c-format
+msgid "could not set LDAP protocol version: %s"
+msgstr "ouldcay not etsay LDAP otocolpray ersionvay: %s"
+
+#: fe-connect.c:5737
+#, c-format
+msgid "lookup on LDAP server failed: %s"
+msgstr "ookuplay on LDAP erversay ailedfay: %s"
+
+#: fe-connect.c:5747
+#, c-format
+msgid "more than one entry found on LDAP lookup"
+msgstr "oremay anthay oneway entryway oundfay on LDAP ookuplay"
+
+#: fe-connect.c:5749 fe-connect.c:5760
+#, c-format
+msgid "no entry found on LDAP lookup"
+msgstr "no entryway oundfay on LDAP ookuplay"
+
+#: fe-connect.c:5770 fe-connect.c:5782
+#, c-format
+msgid "attribute has no values on LDAP lookup"
+msgstr "attributeway ashay no aluesvay on LDAP ookuplay"
+
+#: fe-connect.c:5796
+#, c-format
+msgid "connection info string size exceeds the maximum allowed (%d)"
+msgstr ""
+"onnectioncay infoway ingstray izesay exceedsway the aximummay allowedway (%d)"
+
+#: fe-connect.c:5847 fe-connect.c:5866 fe-connect.c:6443
+#, c-format
+msgid "missing \"=\" after \"%s\" in connection info string"
+msgstr "issingmay \"=\" afterway \"%s\" in onnectioncay infoway ingstray"
+
+#: fe-connect.c:5937 fe-connect.c:6626 fe-connect.c:7456
+#, c-format
+msgid "invalid connection option \"%s\""
+msgstr "invalidway onnectioncay optionway \"%s\""
+
+#: fe-connect.c:5952 fe-connect.c:6491
+#, c-format
+msgid "unterminated quoted string in connection info string"
+msgstr "unterminatedway otedquay ingstray in onnectioncay infoway ingstray"
+
+#: fe-connect.c:6048
+#, c-format
+msgid "definition of service \"%s\" not found"
+msgstr "efinitionday of ervicesay \"%s\" not oundfay"
+
+#: fe-connect.c:6074
+#, c-format
+msgid "service file \"%s\" not found"
+msgstr "ervicesay ilefay \"%s\" not oundfay"
+
+#: fe-connect.c:6087
+#, c-format
+msgid "line %d too long in service file \"%s\""
+msgstr "inelay %d ootay onglay in ervicesay ilefay \"%s\""
+
+#: fe-connect.c:6158 fe-connect.c:6211
+#, c-format
+msgid "syntax error in service file \"%s\", line %d"
+msgstr "yntaxsay errorway in ervicesay ilefay \"%s\", inelay %d"
+
+#: fe-connect.c:6169
+#, c-format
+msgid "nested \"service\" specifications not supported in service file \"%s\", line %d"
+msgstr ""
+"estednay \"service\" ecificationsspay not upportedsay in ervicesay ilefay "
+"\"%s\", inelay %d"
+
+#: fe-connect.c:6179
+#, c-format
+msgid ""
+"nested \"servicefile\" specifications not supported in service file \"%s\", "
+"line %d"
+msgstr ""
+"estednay \"servicefile\" ecificationsspay not upportedsay in ervicesay ilefay"
+" \"%s\", inelay %d"
+
+#: fe-connect.c:6945
+#, c-format
+msgid "invalid URI propagated to internal parser routine: \"%s\""
+msgstr "invalidway URI opagatedpray to internalway arserpay outineray: \"%s\""
+
+#: fe-connect.c:7022
+#, c-format
+msgid ""
+"end of string reached when looking for matching \"]\" in IPv6 host address in"
+" URI: \"%s\""
+msgstr ""
+"endway of ingstray eachedray enwhay ookinglay for atchingmay \"]\" in IPv6 "
+"osthay addressway in URI: \"%s\""
+
+#: fe-connect.c:7029
+#, c-format
+msgid "IPv6 host address may not be empty in URI: \"%s\""
+msgstr "IPv6 osthay addressway aymay not be emptyway in URI: \"%s\""
+
+#: fe-connect.c:7044
+#, c-format
+msgid "unexpected character \"%c\" at position %d in URI (expected \":\" or \"/\"): \"%s\""
+msgstr ""
+"unexpectedway aracterchay \"%c\" at ositionpay %d in URI (expectedway \":\" "
+"or \"/\"): \"%s\""
+
+#: fe-connect.c:7173
+#, c-format
+msgid "extra key/value separator \"=\" in URI query parameter: \"%s\""
+msgstr "extraway key/value eparatorsay \"=\" in URI eryquay arameterpay: \"%s\""
+
+#: fe-connect.c:7193
+#, c-format
+msgid "missing key/value separator \"=\" in URI query parameter: \"%s\""
+msgstr "issingmay key/value eparatorsay \"=\" in URI eryquay arameterpay: \"%s\""
+
+#: fe-connect.c:7245
+#, c-format
+msgid "invalid URI query parameter: \"%s\""
+msgstr "invalidway URI eryquay arameterpay: \"%s\""
+
+#: fe-connect.c:7329
+#, c-format
+msgid "invalid percent-encoded token: \"%s\""
+msgstr "invalidway ercentpay-encodedway okentay: \"%s\""
+
+#: fe-connect.c:7339
+#, c-format
+msgid "forbidden value %%00 in percent-encoded value: \"%s\""
+msgstr "orbiddenfay aluevay %%00 in ercentpay-encodedway aluevay: \"%s\""
+
+#: fe-connect.c:7361
+#, c-format
+msgid ""
+"unexpected spaces found in \"%s\", use percent-encoded spaces (%%20) instead"
+msgstr ""
+"unexpectedway acesspay oundfay in \"%s\", useway ercentpay-encodedway "
+"acesspay (%%20) insteadway"
+
+#: fe-connect.c:7737
+msgid "connection pointer is NULL\n"
+msgstr "onnectioncay ointerpay is NULL\n"
+
+#: fe-connect.c:7745 fe-exec.c:719 fe-exec.c:981 fe-exec.c:3527
+#: fe-protocol3.c:1008 fe-protocol3.c:1041
+msgid "out of memory\n"
+msgstr "outway of emorymay\n"
+
+#: fe-connect.c:8055
+#, c-format
+msgid "WARNING: password file \"%s\" is not a plain file\n"
+msgstr "WARNING: asswordpay ilefay \"%s\" is not a ainplay ilefay\n"
+
+#: fe-connect.c:8065
+#, c-format
+msgid ""
+"WARNING: password file \"%s\" has group or world access; permissions should "
+"be u=rw (0600) or less\n"
+msgstr ""
+"WARNING: asswordpay ilefay \"%s\" ashay oupgray or orldway accessway; "
+"ermissionspay ouldshay be u=rw (0600) or esslay\n"
+
+#: fe-connect.c:8172
+#, c-format
+msgid "password retrieved from file \"%s\""
+msgstr "asswordpay etrievedray omfray ilefay \"%s\""
+
+#: fe-connect.c:8338
+#, c-format
+msgid "invalid integer value \"%s\" for connection option \"%s\""
+msgstr "invalidway integerway aluevay \"%s\" for onnectioncay optionway \"%s\""
+
+#: fe-exec.c:470 fe-exec.c:3601
+#, c-format
+msgid "row number %d is out of range 0..%d"
+msgstr "owray umbernay %d is outway of angeray 0..%d"
+
+#: fe-exec.c:840
+#, c-format
+msgid "write to server failed"
+msgstr "itewray to erversay ailedfay"
+
+#: fe-exec.c:880
+#, c-format
+msgid "no error text available"
+msgstr "no errorway exttay availableway"
+
+#: fe-exec.c:969
+msgid "NOTICE"
+msgstr "NOTICE"
+
+#: fe-exec.c:1027
+msgid "PGresult cannot support more than INT_MAX tuples"
+msgstr "PGresult annotcay upportsay oremay anthay INT_MAX uplestay"
+
+#: fe-exec.c:1039
+msgid "size_t overflow"
+msgstr "size_t overflowway"
+
+#: fe-exec.c:1455 fe-exec.c:1524 fe-exec.c:1570
+#, c-format
+msgid "command string is a null pointer"
+msgstr "ommandcay ingstray is a ullnay ointerpay"
+
+#: fe-exec.c:1461 fe-exec.c:3025 fe-exec.c:3071
+#, c-format
+msgid "%s not allowed in pipeline mode"
+msgstr "%s not allowedway in ipelinepay odemay"
+
+#: fe-exec.c:1529 fe-exec.c:1575 fe-exec.c:1669
+#, c-format
+msgid "number of parameters must be between 0 and %d"
+msgstr "umbernay of arameterspay ustmay be etweenbay 0 and %d"
+
+#: fe-exec.c:1565 fe-exec.c:1664
+#, c-format
+msgid "statement name is a null pointer"
+msgstr "atementstay amenay is a ullnay ointerpay"
+
+#: fe-exec.c:1706 fe-exec.c:3447
+#, c-format
+msgid "no connection to the server"
+msgstr "no onnectioncay to the erversay"
+
+#: fe-exec.c:1714 fe-exec.c:3455
+#, c-format
+msgid "another command is already in progress"
+msgstr "anotherway ommandcay is alreadyway in ogresspray"
+
+#: fe-exec.c:1744
+#, c-format
+msgid "cannot queue commands during COPY"
+msgstr "annotcay euequay ommandscay uringday COPY"
+
+#: fe-exec.c:1863
+#, c-format
+msgid "length must be given for binary parameter"
+msgstr "engthlay ustmay be ivengay for inarybay arameterpay"
+
+#: fe-exec.c:2222
+#, c-format
+msgid "unexpected asyncStatus: %d"
+msgstr "unexpectedway asyncStatus: %d"
+
+#: fe-exec.c:2378
+#, c-format
+msgid ""
+"synchronous command execution functions are not allowed in pipeline mode"
+msgstr ""
+"ynchronoussay ommandcay executionway unctionsfay are not allowedway in "
+"ipelinepay odemay"
+
+#: fe-exec.c:2395
+msgid "COPY terminated by new PQexec"
+msgstr "COPY erminatedtay by ewnay PQexec"
+
+#: fe-exec.c:2411
+#, c-format
+msgid "PQexec not allowed during COPY BOTH"
+msgstr "PQexec not allowedway uringday COPY BOTH"
+
+#: fe-exec.c:2647
+#, c-format
+msgid "unrecognized message type \"%c\""
+msgstr "unrecognizedway essagemay ypetay \"%c\""
+
+#: fe-exec.c:2719 fe-exec.c:2773 fe-exec.c:2841 fe-protocol3.c:2093
+#, c-format
+msgid "no COPY in progress"
+msgstr "no COPY in ogresspray"
+
+#: fe-exec.c:3032 fe-exec.c:3078
+#, c-format
+msgid "connection in wrong state"
+msgstr "onnectioncay in ongwray atestay"
+
+#: fe-exec.c:3037
+#, c-format
+msgid ""
+"PQfn() is no longer supported; use a prepared statement or PQexecParams() "
+"with binary parameters and results instead"
+msgstr ""
+"PQfn() is no ongerlay upportedsay; useway a eparedpray atementstay or "
+"PQexecParams() ithway inarybay arameterspay and esultsray insteadway"
+
+#: fe-exec.c:3121
+#, c-format
+msgid "cannot enter pipeline mode, connection not idle"
+msgstr "annotcay enterway ipelinepay odemay, onnectioncay not idleway"
+
+#: fe-exec.c:3157 fe-exec.c:3178
+#, c-format
+msgid "cannot exit pipeline mode with uncollected results"
+msgstr "annotcay exitway ipelinepay odemay ithway uncollectedway esultsray"
+
+#: fe-exec.c:3161
+#, c-format
+msgid "cannot exit pipeline mode while busy"
+msgstr "annotcay exitway ipelinepay odemay ilewhay usybay"
+
+#: fe-exec.c:3172
+#, c-format
+msgid "cannot exit pipeline mode while in COPY"
+msgstr "annotcay exitway ipelinepay odemay ilewhay in COPY"
+
+#: fe-exec.c:3371
+#, c-format
+msgid "cannot send pipeline when not in pipeline mode"
+msgstr "annotcay endsay ipelinepay enwhay not in ipelinepay odemay"
+
+#: fe-exec.c:3490
+msgid "invalid ExecStatusType code"
+msgstr "invalidway ExecStatusType odecay"
+
+#: fe-exec.c:3517
+msgid "PGresult is not an error result\n"
+msgstr "PGresult is not an errorway esultray\n"
+
+#: fe-exec.c:3585 fe-exec.c:3608
+#, c-format
+msgid "column number %d is out of range 0..%d"
+msgstr "olumncay umbernay %d is outway of angeray 0..%d"
+
+#: fe-exec.c:3623
+#, c-format
+msgid "parameter number %d is out of range 0..%d"
+msgstr "arameterpay umbernay %d is outway of angeray 0..%d"
+
+#: fe-exec.c:3934
+#, c-format
+msgid "could not interpret result from server: %s"
+msgstr "ouldcay not interpretway esultray omfray erversay: %s"
+
+#: fe-exec.c:4214 fe-exec.c:4328
+#, c-format
+msgid "incomplete multibyte character"
+msgstr "incompleteway ultibytemay aracterchay"
+
+#: fe-exec.c:4216 fe-exec.c:4347
+#, c-format
+msgid "invalid multibyte character"
+msgstr "invalidway ultibytemay aracterchay"
+
+#: fe-exec.c:4449
+#, c-format
+msgid "escaped string size exceeds the maximum allowed (%zu)"
+msgstr "escapedway ingstray izesay exceedsway the aximummay allowedway (%zu)"
+
+#: fe-exec.c:4626
+#, c-format
+msgid "escaped bytea size exceeds the maximum allowed (%zu)"
+msgstr "escapedway yteabay izesay exceedsway the aximummay allowedway (%zu)"
+
+#: fe-gssapi-common.c:122
+msgid "GSSAPI name import error"
+msgstr "GSSAPI amenay importway errorway"
+
+#: fe-lobj.c:142 fe-lobj.c:205 fe-lobj.c:395 fe-lobj.c:485 fe-lobj.c:558
+#: fe-lobj.c:955 fe-lobj.c:962 fe-lobj.c:969 fe-lobj.c:976 fe-lobj.c:983
+#: fe-lobj.c:990 fe-lobj.c:997 fe-lobj.c:1004
+#, c-format
+msgid "cannot determine OID of function %s"
+msgstr "annotcay etermineday OID of unctionfay %s"
+
+#: fe-lobj.c:158
+#, c-format
+msgid "argument of lo_truncate exceeds integer range"
+msgstr "argumentway of lo_truncate exceedsway integerway angeray"
+
+#: fe-lobj.c:260
+#, c-format
+msgid "argument of lo_read exceeds integer range"
+msgstr "argumentway of lo_read exceedsway integerway angeray"
+
+#: fe-lobj.c:311
+#, c-format
+msgid "argument of lo_write exceeds integer range"
+msgstr "argumentway of lo_write exceedsway integerway angeray"
+
+#: fe-lobj.c:667 fe-lobj.c:777
+#, c-format
+msgid "could not open file \"%s\": %s"
+msgstr "ouldcay not openway ilefay \"%s\": %s"
+
+#: fe-lobj.c:723
+#, c-format
+msgid "could not read from file \"%s\": %s"
+msgstr "ouldcay not eadray omfray ilefay \"%s\": %s"
+
+#: fe-lobj.c:800 fe-lobj.c:823
+#, c-format
+msgid "could not write to file \"%s\": %s"
+msgstr "ouldcay not itewray to ilefay \"%s\": %s"
+
+#: fe-lobj.c:907
+#, c-format
+msgid "query to initialize large object functions did not return data"
+msgstr ""
+"eryquay to initializeway argelay objectway unctionsfay idday not eturnray "
+"ataday"
+
+#: fe-misc.c:241
+#, c-format
+msgid "integer of size %zu not supported by pqGetInt"
+msgstr "integerway of izesay %zu not upportedsay by pqGetInt"
+
+#: fe-misc.c:274
+#, c-format
+msgid "integer of size %zu not supported by pqPutInt"
+msgstr "integerway of izesay %zu not upportedsay by pqPutInt"
+
+#: fe-misc.c:833 fe-secure-openssl.c:182 fe-secure-openssl.c:318
+#: fe-secure.c:222 fe-secure.c:413
+#, c-format
+msgid ""
+"server closed the connection unexpectedly\n"
+"\tThis probably means the server terminated abnormally\n"
+"\tbefore or while processing the request."
+msgstr ""
+"erversay osedclay the onnectioncay unexpectedlyway\n"
+"\tIsthay obablypray eansmay the erversay erminatedtay abnormallyway\n"
+"\teforebay or ilewhay ocessingpray the equestray."
+
+#: fe-misc.c:942
+#, c-format
+msgid "drained only %zd of %zd pending bytes in transport buffer"
+msgstr "aineddray onlyway %zd of %zd endingpay ytesbay in ansporttray ufferbay"
+
+#: fe-misc.c:1004
+msgid "connection not open\n"
+msgstr "onnectioncay not openway\n"
+
+#: fe-misc.c:1192
+#, c-format
+msgid "timeout expired"
+msgstr "imeouttay expiredway"
+
+#: fe-misc.c:1244
+#, c-format
+msgid "invalid socket"
+msgstr "invalidway ocketsay"
+
+#: fe-misc.c:1265
+#, c-format
+msgid "%s() failed: %s"
+msgstr "%s() ailedfay: %s"
+
+#: fe-protocol3.c:192
+#, c-format
+msgid "message type 0x%02x arrived from server while idle"
+msgstr "essagemay ypetay 0x%02x arrivedway omfray erversay ilewhay idleway"
+
+#: fe-protocol3.c:405
+#, c-format
+msgid "server sent data (\"D\" message) without prior row description (\"T\" message)"
+msgstr ""
+"erversay entsay ataday (\"D\" essagemay) ithoutway iorpray owray "
+"escriptionday (\"T\" essagemay)"
+
+#: fe-protocol3.c:447
+#, c-format
+msgid "unexpected response from server; first received character was \"%c\""
+msgstr ""
+"unexpectedway esponseray omfray erversay; irstfay eceivedray aracterchay was "
+"\"%c\""
+
+#: fe-protocol3.c:471
+#, c-format
+msgid "message contents do not agree with length in message type \"%c\""
+msgstr ""
+"essagemay ontentscay oday not agreeway ithway engthlay in essagemay ypetay "
+"\"%c\""
+
+#: fe-protocol3.c:506
+#, c-format
+msgid "lost synchronization with server: got message type \"%c\", length %d"
+msgstr ""
+"ostlay ynchronizationsay ithway erversay: otgay essagemay ypetay \"%c\", "
+"engthlay %d"
+
+#: fe-protocol3.c:553 fe-protocol3.c:593
+msgid "insufficient data in \"T\" message"
+msgstr "insufficientway ataday in \"T\" essagemay"
+
+#: fe-protocol3.c:664 fe-protocol3.c:870
+msgid "out of memory for query result"
+msgstr "outway of emorymay for eryquay esultray"
+
+#: fe-protocol3.c:733
+msgid "insufficient data in \"t\" message"
+msgstr "insufficientway ataday in \"t\" essagemay"
+
+#: fe-protocol3.c:792 fe-protocol3.c:824 fe-protocol3.c:842
+msgid "insufficient data in \"D\" message"
+msgstr "insufficientway ataday in \"D\" essagemay"
+
+#: fe-protocol3.c:798
+msgid "unexpected field count in \"D\" message"
+msgstr "unexpectedway ieldfay ountcay in \"D\" essagemay"
+
+#: fe-protocol3.c:1054
+msgid "no error message available\n"
+msgstr "no errorway essagemay availableway\n"
+
+#. translator: %s represents a digit string
+#: fe-protocol3.c:1102 fe-protocol3.c:1121
+#, c-format
+msgid " at character %s"
+msgstr " at aracterchay %s"
+
+#: fe-protocol3.c:1134
+#, c-format
+msgid "DETAIL:  %s\n"
+msgstr "DETAIL:  %s\n"
+
+#: fe-protocol3.c:1137
+#, c-format
+msgid "HINT:  %s\n"
+msgstr "HINT:  %s\n"
+
+#: fe-protocol3.c:1140
+#, c-format
+msgid "QUERY:  %s\n"
+msgstr "QUERY:  %s\n"
+
+#: fe-protocol3.c:1147
+#, c-format
+msgid "CONTEXT:  %s\n"
+msgstr "CONTEXT:  %s\n"
+
+#: fe-protocol3.c:1156
+#, c-format
+msgid "SCHEMA NAME:  %s\n"
+msgstr "SCHEMA NAME:  %s\n"
+
+#: fe-protocol3.c:1160
+#, c-format
+msgid "TABLE NAME:  %s\n"
+msgstr "TABLE NAME:  %s\n"
+
+#: fe-protocol3.c:1164
+#, c-format
+msgid "COLUMN NAME:  %s\n"
+msgstr "COLUMN NAME:  %s\n"
+
+#: fe-protocol3.c:1168
+#, c-format
+msgid "DATATYPE NAME:  %s\n"
+msgstr "DATATYPE NAME:  %s\n"
+
+#: fe-protocol3.c:1172
+#, c-format
+msgid "CONSTRAINT NAME:  %s\n"
+msgstr "CONSTRAINT NAME:  %s\n"
+
+#: fe-protocol3.c:1184
+msgid "LOCATION:  "
+msgstr "LOCATION:  "
+
+#: fe-protocol3.c:1186
+#, c-format
+msgid "%s, "
+msgstr "%s, "
+
+#: fe-protocol3.c:1188
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#: fe-protocol3.c:1396
+#, c-format
+msgid "LINE %d: "
+msgstr "LINE %d: "
+
+#: fe-protocol3.c:1464
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server requested \"grease\" "
+"protocol version 3.9999"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay "
+"equestedray \"grease\" otocolpray ersionvay 3.9999"
+
+#: fe-protocol3.c:1470
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server requested downgrade to "
+"a higher-numbered version"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay "
+"equestedray owngradeday to a igherhay-umberednay ersionvay"
+
+#: fe-protocol3.c:1476
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server requested downgrade to "
+"pre-3.0 protocol version"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay "
+"equestedray owngradeday to epray-3.0 otocolpray ersionvay"
+
+#: fe-protocol3.c:1483
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server requested downgrade to "
+"non-existent 3.1 protocol version"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay "
+"equestedray owngradeday to onnay-existentway 3.1 otocolpray ersionvay"
+
+#: fe-protocol3.c:1489
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server reported negative "
+"number of unsupported parameters"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay eportedray"
+" egativenay umbernay of unsupportedway arameterspay"
+
+#: fe-protocol3.c:1495
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server negotiated but asks for"
+" no changes"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay "
+"egotiatednay utbay asksway for no angeschay"
+
+#: fe-protocol3.c:1501
+#, c-format
+msgid "server only supports protocol version %d.%d, but \"%s\" was set to %d.%d"
+msgstr ""
+"erversay onlyway upportssay otocolpray ersionvay %d.%d, utbay \"%s\" was "
+"etsay to %d.%d"
+
+#: fe-protocol3.c:1526
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server reported unsupported "
+"parameter name without a \"%s\" prefix (\"%s\")"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay eportedray"
+" unsupportedway arameterpay amenay ithoutway a \"%s\" efixpray (\"%s\")"
+
+#: fe-protocol3.c:1529
+#, c-format
+msgid ""
+"received invalid protocol negotiation message: server reported an unsupported"
+" parameter that was not requested (\"%s\")"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: erversay eportedray"
+" an unsupportedway arameterpay atthay was not equestedray (\"%s\")"
+
+#: fe-protocol3.c:1537
+#, c-format
+msgid "received invalid protocol negotiation message: message too short"
+msgstr ""
+"eceivedray invalidway otocolpray egotiationnay essagemay: essagemay ootay "
+"ortshay"
+
+#: fe-protocol3.c:1603
+#, c-format
+msgid ""
+"received invalid BackendKeyData message: cancel key with length %d not "
+"allowed in protocol version 3.0 (must be 4 bytes)"
+msgstr ""
+"eceivedray invalidway BackendKeyData essagemay: ancelcay eykay ithway "
+"engthlay %d not allowedway in otocolpray ersionvay 3.0 (ustmay be 4 ytesbay)"
+
+#: fe-protocol3.c:1610
+#, c-format
+msgid ""
+"received invalid BackendKeyData message: cancel key with length %d is too "
+"short (minimum 4 bytes)"
+msgstr ""
+"eceivedray invalidway BackendKeyData essagemay: ancelcay eykay ithway "
+"engthlay %d is ootay ortshay (inimummay 4 ytesbay)"
+
+#: fe-protocol3.c:1617
+#, c-format
+msgid ""
+"received invalid BackendKeyData message: cancel key with length %d is too "
+"long (maximum 256 bytes)"
+msgstr ""
+"eceivedray invalidway BackendKeyData essagemay: ancelcay eykay ithway "
+"engthlay %d is ootay onglay (aximummay 256 ytesbay)"
+
+#: fe-protocol3.c:1988
+#, c-format
+msgid "PQgetline: not doing text COPY OUT"
+msgstr "PQgetline: not oingday exttay COPY OUT"
+
+#: fe-protocol3.c:2319
+#, c-format
+msgid "server returned too much data"
+msgstr "erversay eturnedray ootay uchmay ataday"
+
+#: fe-protocol3.c:2374
+#, c-format
+msgid "protocol error: no function result"
+msgstr "otocolpray errorway: no unctionfay esultray"
+
+#: fe-protocol3.c:2386
+#, c-format
+msgid "protocol error: id=0x%x"
+msgstr "otocolpray errorway: idway=0x%x"
+
+#: fe-secure-common.c:123
+#, c-format
+msgid "SSL certificate's name contains embedded null"
+msgstr "SSL ertificatecay's amenay ontainscay embeddedway ullnay"
+
+#: fe-secure-common.c:228
+#, c-format
+msgid "certificate contains IP address with invalid length %zu"
+msgstr "ertificatecay ontainscay IP addressway ithway invalidway engthlay %zu"
+
+#: fe-secure-common.c:237
+#, c-format
+msgid "could not convert certificate's IP address to string: %s"
+msgstr "ouldcay not onvertcay ertificatecay's IP addressway to ingstray: %s"
+
+#: fe-secure-common.c:269
+#, c-format
+msgid "host name must be specified for a verified SSL connection"
+msgstr "osthay amenay ustmay be ecifiedspay for a erifiedvay SSL onnectioncay"
+
+#: fe-secure-common.c:286
+#, c-format
+msgid ""
+"server certificate for \"%s\" (and %d other name) does not match host name "
+"\"%s\""
+msgid_plural ""
+"server certificate for \"%s\" (and %d other names) does not match host name "
+"\"%s\""
+msgstr[0] ""
+"erversay ertificatecay for \"%s\" (and %d otherway amenay) oesday not atchmay"
+" osthay amenay \"%s\""
+msgstr[1] ""
+"erversay ertificatecay for \"%s\" (and %d otherway amesnay) oesday not "
+"atchmay osthay amenay \"%s\""
+
+#: fe-secure-common.c:294
+#, c-format
+msgid "server certificate for \"%s\" does not match host name \"%s\""
+msgstr "erversay ertificatecay for \"%s\" oesday not atchmay osthay amenay \"%s\""
+
+#: fe-secure-common.c:299
+#, c-format
+msgid "could not get server's host name from server certificate"
+msgstr ""
+"ouldcay not etgay erversay's osthay amenay omfray erversay ertificatecay"
+
+#: fe-secure-gssapi.c:201
+msgid "GSSAPI wrap error"
+msgstr "GSSAPI apwray errorway"
+
+#: fe-secure-gssapi.c:208
+#, c-format
+msgid "outgoing GSSAPI message would not use confidentiality"
+msgstr "outgoingway GSSAPI essagemay ouldway not useway onfidentialitycay"
+
+#: fe-secure-gssapi.c:215 fe-secure-gssapi.c:733
+#, c-format
+msgid "client tried to send oversize GSSAPI packet (%zu > %zu)"
+msgstr "ientclay iedtray to endsay oversizeway GSSAPI acketpay (%zu > %zu)"
+
+#: fe-secure-gssapi.c:354 fe-secure-gssapi.c:609
+#, c-format
+msgid "oversize GSSAPI packet sent by the server (%zu > %zu)"
+msgstr "oversizeway GSSAPI acketpay entsay by the erversay (%zu > %zu)"
+
+#: fe-secure-gssapi.c:393
+msgid "GSSAPI unwrap error"
+msgstr "GSSAPI unwrapway errorway"
+
+#: fe-secure-gssapi.c:402
+#, c-format
+msgid "incoming GSSAPI message did not use confidentiality"
+msgstr "incomingway GSSAPI essagemay idday not useway onfidentialitycay"
+
+#: fe-secure-gssapi.c:672
+msgid "could not initiate GSSAPI security context"
+msgstr "ouldcay not initiateway GSSAPI ecuritysay ontextcay"
+
+#: fe-secure-gssapi.c:722
+msgid "GSSAPI size check error"
+msgstr "GSSAPI izesay eckchay errorway"
+
+#: fe-secure-openssl.c:186 fe-secure-openssl.c:322 fe-secure-openssl.c:1452
+#, c-format
+msgid "SSL SYSCALL error: %s"
+msgstr "SSL SYSCALL errorway: %s"
+
+#: fe-secure-openssl.c:192 fe-secure-openssl.c:328 fe-secure-openssl.c:1455
+#, c-format
+msgid "SSL SYSCALL error: EOF detected"
+msgstr "SSL SYSCALL errorway: EOF etectedday"
+
+#: fe-secure-openssl.c:202 fe-secure-openssl.c:338 fe-secure-openssl.c:1463
+#, c-format
+msgid "SSL error: %s"
+msgstr "SSL errorway: %s"
+
+#: fe-secure-openssl.c:216 fe-secure-openssl.c:352
+#, c-format
+msgid "SSL connection has been closed unexpectedly"
+msgstr "SSL onnectioncay ashay been osedclay unexpectedlyway"
+
+#: fe-secure-openssl.c:221 fe-secure-openssl.c:357 fe-secure-openssl.c:1510
+#, c-format
+msgid "unrecognized SSL error code: %d"
+msgstr "unrecognizedway SSL errorway odecay: %d"
+
+#: fe-secure-openssl.c:251
+#, c-format
+msgid "OpenSSL reports negative bytes pending"
+msgstr "OpenSSL eportsray egativenay ytesbay endingpay"
+
+#: fe-secure-openssl.c:263
+#, c-format
+msgid "OpenSSL reports INT_MAX bytes pending"
+msgstr "OpenSSL eportsray INT_MAX ytesbay endingpay"
+
+#: fe-secure-openssl.c:404
+#, c-format
+msgid "could not determine server certificate signature algorithm"
+msgstr ""
+"ouldcay not etermineday erversay ertificatecay ignaturesay algorithmway"
+
+#: fe-secure-openssl.c:425
+#, c-format
+msgid "could not find digest for NID %d"
+msgstr "ouldcay not indfay igestday for NID %d"
+
+#: fe-secure-openssl.c:435
+#, c-format
+msgid "could not fetch digest \"%s\""
+msgstr "ouldcay not etchfay igestday \"%s\""
+
+#: fe-secure-openssl.c:449
+#, c-format
+msgid "could not find digest for NID %s"
+msgstr "ouldcay not indfay igestday for NID %s"
+
+#: fe-secure-openssl.c:462
+#, c-format
+msgid "could not generate peer certificate hash"
+msgstr "ouldcay not enerategay eerpay ertificatecay ashhay"
+
+#: fe-secure-openssl.c:549
+#, c-format
+msgid "SSL certificate's name entry is missing"
+msgstr "SSL ertificatecay's amenay entryway is issingmay"
+
+#: fe-secure-openssl.c:579
+#, c-format
+msgid "SSL certificate's address entry is missing"
+msgstr "SSL ertificatecay's addressway entryway is issingmay"
+
+#: fe-secure-openssl.c:785
+#, c-format
+msgid "WARNING: could not open SSL key logging file \"%s\": %m\n"
+msgstr "WARNING: ouldcay not openway SSL eykay ogginglay ilefay \"%s\": %m\n"
+
+#: fe-secure-openssl.c:793
+#, c-format
+msgid "WARNING: could not write to SSL key logging file \"%s\": %m\n"
+msgstr "WARNING: ouldcay not itewray to SSL eykay ogginglay ilefay \"%s\": %m\n"
+
+#: fe-secure-openssl.c:846
+#, c-format
+msgid "could not create SSL context: %s"
+msgstr "ouldcay not eatecray SSL ontextcay: %s"
+
+#: fe-secure-openssl.c:888
+#, c-format
+msgid "invalid value \"%s\" for minimum SSL protocol version"
+msgstr "invalidway aluevay \"%s\" for inimummay SSL otocolpray ersionvay"
+
+#: fe-secure-openssl.c:898
+#, c-format
+msgid "could not set minimum SSL protocol version: %s"
+msgstr "ouldcay not etsay inimummay SSL otocolpray ersionvay: %s"
+
+#: fe-secure-openssl.c:914
+#, c-format
+msgid "invalid value \"%s\" for maximum SSL protocol version"
+msgstr "invalidway aluevay \"%s\" for aximummay SSL otocolpray ersionvay"
+
+#: fe-secure-openssl.c:924
+#, c-format
+msgid "could not set maximum SSL protocol version: %s"
+msgstr "ouldcay not etsay aximummay SSL otocolpray ersionvay: %s"
+
+#: fe-secure-openssl.c:962
+#, c-format
+msgid "could not load system root certificate paths: %s"
+msgstr "ouldcay not oadlay ystemsay ootray ertificatecay athspay: %s"
+
+#: fe-secure-openssl.c:979
+#, c-format
+msgid "could not read root certificate file \"%s\": %s"
+msgstr "ouldcay not eadray ootray ertificatecay ilefay \"%s\": %s"
+
+#: fe-secure-openssl.c:1031
+#, c-format
+msgid ""
+"could not get home directory to locate root certificate file\n"
+"Either provide the file, use the system's trusted roots with sslrootcert=system, or change sslmode to disable server certificate verification."
+msgstr ""
+"ouldcay not etgay omehay irectoryday to ocatelay ootray ertificatecay ilefay\n"
+"Eitherway ovidepray the ilefay, useway the ystemsay's ustedtray ootsray ithway ootcertsslray=ystemsay, or angechay odesslmay to isableday erversay ertificatecay erificationvay."
+
+#: fe-secure-openssl.c:1034
+#, c-format
+msgid ""
+"root certificate file \"%s\" does not exist\n"
+"Either provide the file, use the system's trusted roots with sslrootcert=system, or change sslmode to disable server certificate verification."
+msgstr ""
+"ootray ertificatecay ilefay \"%s\" oesday not existway\n"
+"Eitherway ovidepray the ilefay, useway the ystemsay's ustedtray ootsray ithway ootcertsslray=ystemsay, or angechay odesslmay to isableday erversay ertificatecay erificationvay."
+
+#: fe-secure-openssl.c:1069
+#, c-format
+msgid "could not open certificate file \"%s\": %s"
+msgstr "ouldcay not openway ertificatecay ilefay \"%s\": %s"
+
+#: fe-secure-openssl.c:1087
+#, c-format
+msgid "could not read certificate file \"%s\": %s"
+msgstr "ouldcay not eadray ertificatecay ilefay \"%s\": %s"
+
+#: fe-secure-openssl.c:1111
+#, c-format
+msgid "could not establish SSL connection: %s"
+msgstr "ouldcay not establishway SSL onnectioncay: %s"
+
+#: fe-secure-openssl.c:1128
+#, c-format
+msgid "WARNING: sslkeylogfile support requires OpenSSL\n"
+msgstr "WARNING: eylogfilesslkay upportsay equiresray OpenSSL\n"
+
+#: fe-secure-openssl.c:1130
+#, c-format
+msgid "WARNING: libpq was not built with sslkeylogfile support\n"
+msgstr "WARNING: ibpqlay was not uiltbay ithway eylogfilesslkay upportsay\n"
+
+#: fe-secure-openssl.c:1160
+#, c-format
+msgid "could not set SSL Server Name Indication (SNI): %s"
+msgstr "ouldcay not etsay SSL Erversay Amenay Indicationway (SNI): %s"
+
+#: fe-secure-openssl.c:1177
+#, c-format
+msgid "could not set SSL ALPN extension: %s"
+msgstr "ouldcay not etsay SSL ALPN extensionway: %s"
+
+#: fe-secure-openssl.c:1220
+#, c-format
+msgid "could not load SSL engine \"%s\": %s"
+msgstr "ouldcay not oadlay SSL engineway \"%s\": %s"
+
+#: fe-secure-openssl.c:1231
+#, c-format
+msgid "could not initialize SSL engine \"%s\": %s"
+msgstr "ouldcay not initializeway SSL engineway \"%s\": %s"
+
+#: fe-secure-openssl.c:1246
+#, c-format
+msgid "could not read private SSL key \"%s\" from engine \"%s\": %s"
+msgstr "ouldcay not eadray ivatepray SSL eykay \"%s\" omfray engineway \"%s\": %s"
+
+#: fe-secure-openssl.c:1259
+#, c-format
+msgid "could not load private SSL key \"%s\" from engine \"%s\": %s"
+msgstr "ouldcay not oadlay ivatepray SSL eykay \"%s\" omfray engineway \"%s\": %s"
+
+#: fe-secure-openssl.c:1296
+#, c-format
+msgid "certificate present, but not private key file \"%s\""
+msgstr "ertificatecay esentpray, utbay not ivatepray eykay ilefay \"%s\""
+
+#: fe-secure-openssl.c:1299
+#, c-format
+msgid "could not stat private key file \"%s\": %m"
+msgstr "ouldcay not atstay ivatepray eykay ilefay \"%s\": %m"
+
+#: fe-secure-openssl.c:1307
+#, c-format
+msgid "private key file \"%s\" is not a regular file"
+msgstr "ivatepray eykay ilefay \"%s\" is not a egularray ilefay"
+
+#: fe-secure-openssl.c:1340
+#, c-format
+msgid ""
+"private key file \"%s\" has group or world access; file must have permissions"
+" u=rw (0600) or less if owned by the current user, or permissions u=rw,g=r "
+"(0640) or less if owned by root"
+msgstr ""
+"ivatepray eykay ilefay \"%s\" ashay oupgray or orldway accessway; ilefay "
+"ustmay avehay ermissionspay u=rw (0600) or esslay if ownedway by the "
+"urrentcay userway, or ermissionspay u=rw,g=r (0640) or esslay if ownedway by "
+"ootray"
+
+#: fe-secure-openssl.c:1364
+#, c-format
+msgid "could not load private key file \"%s\": %s"
+msgstr "ouldcay not oadlay ivatepray eykay ilefay \"%s\": %s"
+
+#: fe-secure-openssl.c:1380
+#, c-format
+msgid "certificate does not match private key file \"%s\": %s"
+msgstr "ertificatecay oesday not atchmay ivatepray eykay ilefay \"%s\": %s"
+
+#: fe-secure-openssl.c:1449
+#, c-format
+msgid "SSL error: certificate verify failed: %s"
+msgstr "SSL errorway: ertificatecay erifyvay ailedfay: %s"
+
+#: fe-secure-openssl.c:1494
+#, c-format
+msgid ""
+"This may indicate that the server does not support any SSL protocol version "
+"between %s and %s."
+msgstr ""
+"Isthay aymay indicateway atthay the erversay oesday not upportsay anyway SSL "
+"otocolpray ersionvay etweenbay %s and %s."
+
+#: fe-secure-openssl.c:1526
+#, c-format
+msgid ""
+"direct SSL connection was established without ALPN protocol negotiation "
+"extension"
+msgstr ""
+"irectday SSL onnectioncay was establishedway ithoutway ALPN otocolpray "
+"egotiationnay extensionway"
+
+#: fe-secure-openssl.c:1538
+#, c-format
+msgid "SSL connection was established with unexpected ALPN protocol"
+msgstr ""
+"SSL onnectioncay was establishedway ithway unexpectedway ALPN otocolpray"
+
+#: fe-secure-openssl.c:1555
+#, c-format
+msgid "certificate could not be obtained: %s"
+msgstr "ertificatecay ouldcay not be obtainedway: %s"
+
+#: fe-secure-openssl.c:1633
+#, c-format
+msgid "no SSL error reported"
+msgstr "no SSL errorway eportedray"
+
+#: fe-secure-openssl.c:1676
+#, c-format
+msgid "SSL error code %lu"
+msgstr "SSL errorway odecay %lu"
+
+#: fe-secure-openssl.c:1975
+#, c-format
+msgid "WARNING: sslpassword truncated\n"
+msgstr "WARNING: asswordsslpay uncatedtray\n"
+
+#: fe-secure.c:233
+#, c-format
+msgid "could not receive data from server: %s"
+msgstr "ouldcay not eceiveray ataday omfray erversay: %s"
+
+#: fe-secure.c:428
+#, c-format
+msgid "could not send data to server: %s"
+msgstr "ouldcay not endsay ataday to erversay: %s"
+
+#: win32.c:309
+#, c-format
+msgid "unrecognized socket error: 0x%08X/%d"
+msgstr "unrecognizedway ocketsay errorway: 0x%08X/%d"
